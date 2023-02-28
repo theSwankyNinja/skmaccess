@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ClassContext } from '../provider/classContext';
 
 const AppHeader = () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const classy = useContext(ClassContext)
     return (
         <div>
             <header id="banner">
